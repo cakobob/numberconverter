@@ -1,0 +1,90 @@
+html {
+    background-color: #3c3838;
+}
+
+body {
+    background-color: transparent;
+}
+
+#form {
+    margin: 230px auto 0;
+    padding: 10px;
+    color: white;
+    height: auto;
+    max-width: 800px;
+    background-image: url("notebook-chill.jpg");
+    background-size: cover;
+}
+
+#form .heading {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#form .form-group {
+    float: left;
+    width: 90%;
+    margin-left: 40px;
+}
+
+#form .form-control {
+    padding: 15px 25px;
+    height: auto;
+}
+
+#form .form-group-btn {
+    width: 15%;
+    margin-left: 320px;
+}
+
+#form .btn {
+    padding: 13px 32px;
+}
+
+#form .checkbox {
+    float: left;
+    margin: 15px 0 50px 40px;
+}
+
+#form p.sentence, p.result {
+    font-size: 16px;
+}
+
+#form p.powered{
+    text-align: right;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 800px) {
+    #form {
+        margin: 20px;
+    }
+
+    #form .form-group {
+        width: 60%;
+        float: none;
+        margin: 10px auto;
+    }
+
+    #form .form-group-btn {
+        margin-top: 30px;
+    }
+
+    #form .btn {
+        width: 100%;
+    }
+
+    #form .checkbox {
+        width: 60%;
+        float: none;
+        margin: 15px auto 50px auto;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #form .form-group,
+    #form .checkbox {
+        width: 90%;
+    }
+}

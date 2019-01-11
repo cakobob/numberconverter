@@ -12,7 +12,7 @@ Aplikasi ini merupakan untuk mengkonversi kalimat menjadi angka.
 
 # Output
 - Output berupa angka jika kalimat yang diinputkan valid, contoh 525 hasil input dari "lima ratus dua puluh lima".
-- Output berupa 
+- Output berupa text "invalid" jika yang dimasukkan adalah kalimat yang tidak sesuai.
 
 # Demo
 - Demo aplikasi ini dapat dilihat di https://numberconverter.cakobob.com/

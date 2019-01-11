@@ -1,4 +1,5 @@
-# Aplikasi ini merupakan untuk mengkonversi kalimat menjadi angka.
+# Description
+Aplikasi ini merupakan untuk mengkonversi kalimat menjadi angka.
 
 # Source
 - Source utama dari aplikasi ini adalah class NumberConverter, terdiri dari 2 fungsi utama yaitu encoder dan decoder.
